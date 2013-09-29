@@ -6,6 +6,7 @@ _build
 blib
 Build
 MANIFEST.bak
+MANIFEST
 META.*
 MYMETA.*
 pod2htm?.tmp
