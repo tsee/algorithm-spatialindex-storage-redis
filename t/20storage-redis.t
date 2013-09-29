@@ -36,6 +36,7 @@ isa_ok($index, 'Algorithm::SpatialIndex');
 
 $storage = $index->storage;
 isa_ok($storage, 'Algorithm::SpatialIndex::Storage::Redis');
+$storage->remove_all(); # cleanup
 
 ok(!defined($storage->fetch_node(0)), 'No nodes to start with');
 ok(!defined($storage->fetch_node(1)), 'No nodes to start with');
