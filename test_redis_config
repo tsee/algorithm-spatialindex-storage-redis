@@ -1,0 +1,4 @@
+{
+  "prefix": "asisredis_test",
+  "conn": {"server": "localhost:6379"}
+}
